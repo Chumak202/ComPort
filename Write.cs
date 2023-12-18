@@ -50,6 +50,7 @@ namespace ComPort
             StreamWriter sw = new StreamWriter(Program.Path, false);
             sw.Write(json);
             sw.Close();
+            Console.WriteLine("g");
 
         }
           
